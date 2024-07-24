@@ -6,9 +6,11 @@ import { cn } from "@/lib/utils";
 export const TextGenerateEffect = ({
   words,
   className,
+  mobScreen,
 }: {
   words: string;
   className?: string;
+  mobScreen: boolean;
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
@@ -21,7 +23,7 @@ export const TextGenerateEffect = ({
       {
         duration: 1,
         delay: stagger(0.2),
-      }
+      },
     );
   }, [scope.current]);
 
@@ -29,16 +31,33 @@ export const TextGenerateEffect = ({
     return (
       <motion.div ref={scope}>
         {wordsArray.map((word, idx) => {
-          return (
-            <motion.span
-              key={word + idx}
-              className={`${
-                idx > 4 ? "text-primaryColor" : "dark:text-white text-black "
-              } opacity-0`}
-            >
-              {word}{" "}
-            </motion.span>
-          );
+          if (mobScreen) {
+            return (
+              <motion.span
+                key={word + idx}
+                className={`${
+                  idx == 4 || idx == 5
+                    ? "text-primaryColor"
+                    : "dark:text-white text-black "
+                } opacity-0`}
+              >
+                {word}{" "}
+              </motion.span>
+            );
+          } else {
+            return (
+              <motion.span
+                key={word + idx}
+                className={`${
+                  idx == 5 || idx == 6
+                    ? "text-primaryColor"
+                    : "dark:text-white text-black "
+                } opacity-0`}
+              >
+                {word}{" "}
+              </motion.span>
+            );
+          }
         })}
       </motion.div>
     );
