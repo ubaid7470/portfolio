@@ -17,7 +17,7 @@ export const ThreeDCardDemo = ({
   title?: string;
   description?: string;
   imgSource: string;
-  icons?: React.ReactNode;
+  icons: string[];
   position?: string;
   onClickHandler?: () => void;
   otherClasses?: string;
@@ -54,9 +54,21 @@ export const ThreeDCardDemo = ({
           <CardItem
             translateZ={20}
             as="button"
-            className="px-4 py-2 rounded-xl text-sm font-normal dark:text-white"
+            className=" py-2 rounded-xl text-sm font-normal"
           >
-            try now
+            <div className="flex items-center">
+              {icons.map((icon, index) => (
+                <div
+                  key={index}
+                  className="border border-primaryColor/[.4] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                  style={{
+                    transform: `translateX(-${5 * index + 2}px)`,
+                  }}
+                >
+                  <img src={icon} alt="icon5" className="p-2" />
+                </div>
+              ))}
+            </div>
           </CardItem>
           <CardItem
             translateZ={20}

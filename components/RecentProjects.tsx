@@ -20,6 +20,7 @@ const RecentProjects = () => {
               title={item.title}
               description={item.des}
               imgSource={item.img}
+              icons={item.iconLists}
             />
           </div>
         ))}
