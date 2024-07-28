@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The e-commerce platform developed by [User's Name] exceeded our expectations. The user interface is intuitive, and the performance is outstanding. We are extremely satisfied with the results.",
+    name: "Perfume Labs",
+    title: "Fiverr Client",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "[User's Name] demonstrated exceptional skills and dedication throughout the project. Their ability to tackle complex problems and deliver high-quality solutions was impressive.",
+    name: "Dr. [Supervisor's Name]",
+    title: "FYP Supervisor, MAJU",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I was thoroughly impressed with [User's Name]'s work on the course project. Their technical expertise and attention to detail were evident in the final product.",
+    name: "Professor [Teacher's Name]",
+    title: "Course Instructor",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with [User's Name] was a great experience. They are a team player and always go the extra mile to ensure project success. Highly recommend them for any collaborative work.",
+    name: "[Team Member's Name]",
+    title: "Team Member",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Attirex Clothing has benefited immensely from the web solutions provided by [User's Name]. The seamless integration and performance enhancements have boosted our online presence.",
+    name: "Attirex Clothing",
+    title: "Fiverr Client",
   },
 ];
 
