@@ -10,7 +10,7 @@ export const ThreeDCardDemo = ({
   description,
   imgSource,
   icons,
-  position,
+  link,
   onClickHandler,
   otherClasses,
 }: {
@@ -18,7 +18,7 @@ export const ThreeDCardDemo = ({
   description?: string;
   imgSource: string;
   icons: string[];
-  position?: string;
+  link: string;
   onClickHandler?: () => void;
   otherClasses?: string;
 }) => {
@@ -75,7 +75,10 @@ export const ThreeDCardDemo = ({
             as="button"
             className="flex items-center gap-x-2 px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-sm md:text-base font-bold"
           >
-            Demo
+            <a href={link} target="_blank">
+              Demo
+            </a>
+
             <FaLocationArrow />
           </CardItem>
         </div>

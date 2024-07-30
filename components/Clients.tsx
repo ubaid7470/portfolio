@@ -2,19 +2,19 @@
 
 import React from "react";
 
-import { companies, testimonials } from "@/data";
+import { testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 
 const Clients = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="testimonials" className="pt-20">
       <h1 className="heading">
-        Kind words from
-        <span className="text-primaryColor"> amazing people</span>
+        Hear from Those Who Know
+        <span className="text-primaryColor"> My Work Best</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
-        <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
+        <div className="h-[35vh] md:h-[20rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"

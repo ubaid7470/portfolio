@@ -21,6 +21,7 @@ const RecentProjects = () => {
               description={item.des}
               imgSource={item.img}
               icons={item.iconLists}
+              link={item.link}
             />
           </div>
         ))}

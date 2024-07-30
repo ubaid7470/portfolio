@@ -89,6 +89,11 @@ export const BentoGridItem = ({
             />
           )}
         </div>
+        {id == 1 || id == 5 ? (
+          <div className="bg-[rgb(10,50,0)] h-full w-full absolute opacity-50"></div>
+        ) : (
+          <></>
+        )}
         <div
           className={`absolute right-0 -bottom-5 ${
             id === 5 && "w-full opacity-80"
@@ -123,9 +128,7 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
-          {/* {id == 1 && (
-            <div className="bg-black h-full w-full absolute opacity-60"></div>
-          )} */}
+
           {id == 2 && <GridGlobe />}
 
           {id === 3 && (

@@ -1,6 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Work Experience", link: "#workExperience" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -8,17 +9,17 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Awarded the 2nd Runner-Up Position!",
-    description: "Final Year Project",
+    title: "Graduated with a BS in Software Engineering",
+    description: "Mohammad Ali Jinnah University",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/fyp_winner.jpg",
+    titleClassName: "justify-end [text-shadow:_1px_2px_2px_rgb(0_0_0_/_70%)]",
+    img: "/graduation.jpg",
     spareImg: "",
   },
   {
     id: 2,
-    title: "Available for meetings across different time zones",
+    title: "Available for work across different time zones",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -33,8 +34,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
+    img: "/grid.svg",
+    spareImg: "/grid.svg",
   },
   {
     id: 4,
@@ -49,12 +50,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Awarded the 2nd Runner-Up Position!",
+    description: "Final Year Project",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    imgClassName: "w-full h-full",
+    titleClassName: "justify-end",
+    img: "/fyp.jpeg",
     spareImg: "/grid.svg",
   },
   {
@@ -72,132 +73,138 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "AttireX Clothing",
+    des: "Developed an e-commerce platform specializing in formal shirts, featuring a sleek design and seamless shopping experience.",
+    img: "/AttireX_new.png",
+    iconLists: [
+      "/laravel.png",
+      "/bootstrap.png",
+      "/js.svg",
+      "/css.svg",
+      "/git.svg",
+    ],
+    link: "https://attirexclothing.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Expense Tracker App",
+    des: "A dynamic application designed to help users manage and track their expenses effortlessly, providing real-time insights and visualizations.",
+    img: "/expenseTracker.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/css.svg", "/git.svg"],
+    link: "https://expense-tracker-react-app-beta.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "The Perfumes Lab",
+    des: "Built an e-commerce store dedicated to perfumes, offering an elegant interface and smooth browsing and purchasing functionality.",
+    img: "/perfumes-lab.png",
+    iconLists: [
+      "/wordpress.svg",
+      "/woo.svg",
+      "/js.svg",
+      "/css.svg",
+      "/git.svg",
+    ],
+    link: "https://investment-calculator-steel.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Elevr - Real Estate",
+    des: "Created a real estate platform frontend similar to Airbnb, enhancing property listings and user interactions with a modern, intuitive interface.",
+    img: "/elevr-1.png",
+    iconLists: ["/re.svg", "/bootstrap.png", "/js.svg", "/css.svg", "/git.svg"],
+    link: "https://elevr-real-estate.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Investment Calculator",
+    des: "A React-based investment calculator allowing users to estimate future savings growth with inputs for savings, interest, and duration.",
+    img: "/investment-calculator.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/css.svg", "/git.svg"],
+    link: "https://investment-calculator-steel.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "AI Doctor Chat Bot",
+    des: "An AI-powered chat bot that provides medical advice and answers health-related questions, enhancing patient engagement and support.",
+    img: "/chat-bot.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gpt.svg", "/git.svg"],
+    link: "https://chat-bot-two-beta.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "The e-commerce platform developed by [User's Name] exceeded our expectations. The user interface is intuitive, and the performance is outstanding. We are extremely satisfied with the results.",
+      "The e-commerce platform developed by Ubaid Lodhi exceeded our expectations. The user interface is intuitive, and the performance is outstanding. We are extremely satisfied with the results.",
     name: "Perfume Labs",
-    title: "Fiverr Client",
+    title: "Client, Fiverr",
   },
   {
     quote:
-      "[User's Name] demonstrated exceptional skills and dedication throughout the project. Their ability to tackle complex problems and deliver high-quality solutions was impressive.",
-    name: "Dr. [Supervisor's Name]",
+      "Ubaid Lodhi demonstrated exceptional skills and dedication throughout the project. His ability to tackle complex problems and deliver high-quality solution was impressive.",
+    name: "Prof. Nauman Hafeez",
     title: "FYP Supervisor, MAJU",
   },
   {
     quote:
-      "I was thoroughly impressed with [User's Name]'s work on the course project. Their technical expertise and attention to detail were evident in the final product.",
-    name: "Professor [Teacher's Name]",
-    title: "Course Instructor",
+      "I was thoroughly impressed with Ubaid Lodhi's work on the course project. His technical expertise, attention to detail and dedication throughout the course was great.",
+    name: "Mr. Talha Shiekh",
+    title: "Instructor/CEO Matz Solution",
   },
   {
     quote:
-      "Working with [User's Name] was a great experience. They are a team player and always go the extra mile to ensure project success. Highly recommend them for any collaborative work.",
-    name: "[Team Member's Name]",
-    title: "Team Member",
+      "Working with Ubaid Lodhi was a great experience. He is a team player and always go the extra mile to ensure project success. Highly recommend him for any collaborative work.",
+    name: "Mr. Muhammad Saad",
+    title: "Group Member, MAJU",
   },
-  {
-    quote:
-      "Attirex Clothing has benefited immensely from the web solutions provided by [User's Name]. The seamless integration and performance enhancements have boosted our online presence.",
-    name: "Attirex Clothing",
-    title: "Fiverr Client",
-  },
-];
 
-export const companies = [
   {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    quote:
+      "Working with Ubaid Lodhi on our course projects was an incredible experience. His technical skills and teamwork greatly contributed to our success.",
+    name: "Mr. Abdul Qadeer",
+    title: "Group Member, MAJU",
   },
+
   {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    quote:
+      "Ubaid Lodhi developed an exceptional e-commerce website for us, enhancing our sales and customer experience with seamless functionality and modern design",
+    name: "Attirex Clothing",
+    title: "Client, Fiverr",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer - Technomide",
+    role: " - Project Based (Hybird)",
+    desc: `Developed the frontend for "Elevr," a real-estate marketplace similar to Airbnb, enhancing user experience and interface design.`,
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/technomide.jpg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Web Developer - AttireX Clothing",
+    role: " - Freelance Project (Fiverr)",
+    desc: "Built a comprehensive e-commerce store for AttireX Clothing, focusing on user-friendly design and seamless shopping experience.",
+    className: "md:col-span-2",
+    thumbnail: "/attirexclothing.jpg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Web Developer - The Perfumes Lab",
+    role: " - Freelance Project (Fiverr)",
+    desc: "Developed an e-commerce store for Perfume Labs, ensuring a smooth, engaging user interface and an efficient shopping process.",
+    className: "md:col-span-2",
+    thumbnail: "/theperfumeslab.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Web Developer - ClucksnBulls",
+    desc: "Created a dynamic restaurant website for ClucksNBulls, featuring an intuitive layout, online menu, and reservation system.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/clucksnbulls.jpg",
   },
 ];
 
@@ -205,14 +212,13 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/ubaid7470",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/ubaid-lodhi/",
   },
 ];
 
