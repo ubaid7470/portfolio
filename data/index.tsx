@@ -186,7 +186,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Web Developer - AttireX Clothing",
-    role: " - Freelance Project (Fiverr)",
+    role: " - Freelance Project (Direct Client)",
     desc: "Built a comprehensive e-commerce store for AttireX Clothing, focusing on user-friendly design and seamless shopping experience.",
     className: "md:col-span-2",
     thumbnail: "/attirexclothing.jpg",
@@ -202,7 +202,8 @@ export const workExperience = [
   {
     id: 4,
     title: "Web Developer - ClucksnBulls",
-    desc: "Created a dynamic restaurant website for ClucksNBulls, featuring an intuitive layout, online menu, and reservation system.",
+    role: " - Freelance Project (Direct Client)",
+    desc: "Created a dynamic restaurant website for ClucksnBulls, featuring an intuitive layout, online menu, and reservation system.",
     className: "md:col-span-2",
     thumbnail: "/clucksnbulls.jpg",
   },
