@@ -51,9 +51,9 @@ const Hero = () => {
             solving skills and a passion for clean, efficient code. I turn ideas
             into solutions through curiosity and collaboration.
           </p>
-          <a href="#about" className="animate-fadeIn lg:w-28">
+          <a href="#projects" className="animate-fadeIn lg:w-28">
             <MagicButton
-              title="Show my work"
+              title="View my work"
               icon={<FaLocationArrow />}
               position="right"
             />
