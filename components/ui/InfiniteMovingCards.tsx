@@ -87,7 +87,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[80vw] max-w-full text-justify relative rounded-2xl border border-b-0
+            className="w-[80vw] max-w-full relative rounded-2xl border border-b-0
              flex-shrink-0 border-slate-800 p-5 md:p-8 md:w-[60vw]"
             style={{
               background: "rgba(8, 43, 8, 0.5)",
@@ -102,15 +102,15 @@ export const InfiniteMovingCards = ({
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
 
-              <span className="relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
+              <span className="relative z-20 text-sm text-justify md:text-lg leading-[1.6] text-white font-normal">
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <div className="me-3">
                   <img src="/avatar.gif" alt="profile" />
                 </div>
-                <span className="flex flex-col gap-1">
-                  <span className="text-xl font-bold leading-[1.6] text-white">
+                <span className="flex flex-col justify-between">
+                  <span className="sm:text-sm md:text-xl font-bold leading-[1.6] text-white">
                     {item.name}
                   </span>
 

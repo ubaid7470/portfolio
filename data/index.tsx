@@ -105,7 +105,7 @@ export const projects = [
       "/css.svg",
       "/git.svg",
     ],
-    link: "https://investment-calculator-steel.vercel.app/",
+    link: "https://theperfumeslab.com/",
   },
   {
     id: 4,
@@ -170,7 +170,7 @@ export const testimonials = [
     quote:
       "Ubaid Lodhi developed an exceptional e-commerce website for us, enhancing our sales and customer experience with seamless functionality and modern design",
     name: "Attirex Clothing",
-    title: "Client, Fiverr",
+    title: "Client, Direct Client",
   },
 ];
 
