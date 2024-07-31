@@ -106,10 +106,10 @@ export const NavBar = ({
         >
           <span className="hidden sm:block">Download CV</span>
 
-          <span className="sm:hidden flex items-center gap-x-2">
+          <span className="sm:hidden flex items-center gap-x-1">
             <span>CV</span>
             <Image
-              src={"/download.png"}
+              src={"/download_1.png"}
               alt="Download Icon"
               height={20}
               width={20}
