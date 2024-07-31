@@ -7,7 +7,7 @@ const RecentProjects = () => {
   return (
     <section id="projects" className="py-20">
       <h1 className="heading -mb-6">
-        A small selection of{" "}
+        A collection of{" "}
         <span className="text-primaryColor">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center md:p-4 md:gap-x-10">
