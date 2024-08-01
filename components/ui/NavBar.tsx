@@ -87,7 +87,7 @@ export const NavBar = ({
                   key={`link=${idx}`}
                   href={navItem.link}
                   className={cn(
-                    "relative dark:text-neutral-50 items-center flex px-2 sm:px-0 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500",
+                    "relative dark:text-neutral-50 items-center flex px-[0.4rem] sm:px-0 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500",
                   )}
                 >
                   <span className=" text-sm !cursor-pointer">
@@ -111,8 +111,8 @@ export const NavBar = ({
             <Image
               src={"/download_1.png"}
               alt="Download Icon"
-              height={20}
-              width={20}
+              height={18}
+              width={18}
             />{" "}
           </span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-white to-transparent  h-px" />

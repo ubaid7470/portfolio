@@ -13,7 +13,7 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center justify-center md:p-4 md:gap-x-10">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[35rem] mt-6 md:mt-0 md:h-[37rem] sm:w-96"
+            className="h-[35rem]  md:h-[37rem] lg:min-h-[32.5rem] sm:w-96"
             key={item.id}
           >
             <ThreeDCardDemo
