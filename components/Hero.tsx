@@ -46,7 +46,7 @@ const Hero = () => {
             />
           </div>
 
-          <p className="animate-fadeIn md:max-w-[50vw] mb-4 tracking-wider md:tracking-normal text-md md:text-lg lg:text-2xl">
+          <p className=" animate-fadeIn md:max-w-[50vw] mb-4 tracking-wider md:tracking-normal text-md md:text-lg lg:text-2xl">
             A Software engineer specialized in the MERN stack with problem
             solving skills and a passion for clean, efficient code. I turn ideas
             into solutions through curiosity and collaboration.
