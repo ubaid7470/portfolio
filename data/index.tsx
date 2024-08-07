@@ -150,7 +150,7 @@ export const testimonials = [
     quote:
       "I was thoroughly impressed with Ubaid Lodhi's work on the course project. His technical expertise, attention to detail and dedication throughout the course was great.",
     name: "Mr. Talha Shiekh",
-    title: "Instructor/CEO Matz Solution",
+    title: "Course Instructor, MAJU",
   },
   {
     quote:
