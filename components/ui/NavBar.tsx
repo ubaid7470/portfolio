@@ -100,8 +100,8 @@ export const NavBar = ({
         ))}
 
         <a
-          download={"UbaidLodhi_MERN_CV.pdf"}
-          href="/UbaidLodhi_MERN_CV.pdf"
+          download={"UbaidLodhi_MERN_Resume.pdf"}
+          href="/UbaidLodhi_MERN_Resume.pdf"
           className=" border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-2 md:px-4 py-2 rounded-full"
         >
           <span className="hidden sm:block">Download CV</span>
